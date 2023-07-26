@@ -15,7 +15,7 @@ This project provides code examples to query the metadata of an Azure virtual ma
 
 ## Introduction
 
-This project aims to demonstrate how to retrieve instance metadata from an Azure virtual machine. It provides code examples using Python and PowerShell.
+This project aims to demonstrate how to retrieve instance metadata from an Azure virtual machine. It provides code examples using PowerShell.
 
 ## Prerequisites
 

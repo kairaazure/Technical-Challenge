@@ -18,9 +18,9 @@ function Get-AzureVMMetadata {
 }
 
 # Example usage
-$ResourceGroupName = "your-resource-group"
-$VMName = "your-vm-name"
-$DataKey = "Name"
+$ResourceGroupName = "myrsg"  # Replace with the actual resource group name
+$VMName = "mytestvm"  # Replace with the actual VM name
+$DataKey = "Owner"
 
 $jsonOutput = Get-AzureVMMetadata -ResourceGroupName $ResourceGroupName -VMName $VMName -DataKey $DataKey
 Write-Output $jsonOutput
